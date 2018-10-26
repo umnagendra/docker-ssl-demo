@@ -30,7 +30,7 @@ docker run -d -p <PORT ON HOST>:<PORT IN CONTAINER> \
 -e "PORT=<PORT IN CONTAINER>" \
 -e "CERTFILE=/certs/cert.pem" \
 -e "KEYFILE=/keys/key.pem" \
--e "KEYPASS=12Ccbu12" \
+-e "KEYPASS=<PASSWORD TO ACCESS PRIVATE KEY>" \
 --volume "<ABSOLUTE PATH TO DIR CONTAINING GENERATED SSL CERT>:/certs" \
 --volume "<ABSOLUTE PATH TO DIR CONTAINING GENERATED PRIVATE KEY>:/keys" \
 --name ssl-server ssl-server

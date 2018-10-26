@@ -102,3 +102,14 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings
+.vscode/
+
+# macOS
+.DS_Store
